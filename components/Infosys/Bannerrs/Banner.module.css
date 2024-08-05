@@ -1,0 +1,178 @@
+.banner {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px;
+  background: linear-gradient(
+    135deg,
+    #7f56d9,
+    #5e17eb
+  ); /* Adjust color as needed */
+  color: white;
+  font-family: Arial, sans-serif;
+  margin-top: 100px;
+}
+
+.bannerContent {
+  flex: 2;
+}
+
+.bannerContent h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  font-size: 70px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.bannerContent p {
+  margin: 10px 0;
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.bannerContent ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin: 0;
+  list-style-type: none;
+}
+
+.bannerContent ul li {
+  flex: 1 1 50%; /* Adjusts the width to fit two items per row */
+  box-sizing: border-box; /* Ensures padding and borders are included in the width */
+  padding: 10px; /* Optional: Adds some space around each list item */
+}
+
+.bannerSidebar {
+  flex: 1; /* Allows the sidebar to take up space proportionally */
+  padding: 20px;
+  background: linear-gradient(
+    135deg,
+    #7f56d9,
+    #5e17eb
+  ); /* Light background color for contrast */
+  border-radius: 8px; /* Rounded corners for a softer look */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.bannerSidebar h2 {
+  font-size: 40px; /* Adjust size as needed */
+  margin-bottom: 10px;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 2px solid #fff;
+}
+
+.bannerSidebar p {
+  font-size: 25px; /* Adjust size as needed */
+  margin-bottom: 20px;
+  color: #fff;
+  text-align: center;
+  border-bottom: 2px solid #fff;
+}
+
+.bannerSidebar h3 {
+  font-size: 1.25rem; /* Slightly larger for emphasis */
+  margin-bottom: 10px;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+
+.validityOptions {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  padding: 25px;
+  border-radius: 40px;
+}
+
+.validityOptions label {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #fff;
+  background: linear-gradient(135deg, #7f56d9, #5e17eb);
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.validityOptions input[type="radio"] {
+  margin-right: 10px; /* Space between radio button and label */
+}
+
+.enrollBtn {
+  display: block;
+  width: 100%;
+  padding: 20px;
+  background-color: #007bff; /* Button color */
+  color: white;
+  border: none;
+  border-radius: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background: linear-gradient(135deg, #7f56d9, #5e17eb);
+}
+
+.enrollBtn:hover {
+  background-color: #0056b3; /* Darker shade for hover effect */
+}
+
+.validityOptions {
+  display: flex;
+  justify-content: space-around;
+}
+
+.optionCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border: 2px solid transparent;
+}
+
+.optionCard input {
+  display: none;
+}
+
+.optionCard .optionContent {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+}
+
+.optionCard span {
+  margin: 5px 0;
+}
+
+.optionCard input:checked + .optionContent {
+  font-weight: bold;
+}
+
+.optionCard:hover {
+  background-color: #e0e0e0;
+}
+
+.optionCard input:checked + .optionContent {
+  border-color: #007bff;
+  background-color: #fff;
+  color: #000;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}

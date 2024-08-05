@@ -1,0 +1,16 @@
+.jj {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;  
+    font-size: 18px;
+    color: #c71d1d; 
+  }
+  
+  .styles.hero_image_container {
+    margin-left: 60px; /* Moves the image 20px to the right */
+    margin-top: 90px;  /* Moves the image 10px down */
+    max-width: 100%;
+    height: auto;
+  }
+  
+  

@@ -1,0 +1,46 @@
+.container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f2f7f7;
+}
+
+.container h1 {
+  padding: 20px;
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+.container h2 {
+  padding: 20px;
+  font-size: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+.container p {
+  padding: 10px;
+  margin-bottom: 1em;
+  line-height: 1.6;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1em;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #e0e0e0;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}

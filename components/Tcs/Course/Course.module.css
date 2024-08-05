@@ -1,0 +1,46 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+
+}
+
+.heading {
+  padding: 10px;
+  font-weight: bold;
+  font-size: 45px;
+  margin-left: -100px;  
+}
+
+.subheading {
+  font-size: 28px;
+  margin: 20px 0;
+  color: #555;
+  text-align: left;
+  font-weight: 600;
+}
+
+.description {
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6; /* Improved line spacing */
+  margin-bottom: 20px;
+}
+
+.list {
+  list-style-type: disc;
+  margin: 20px 0;
+  padding-left: 20px;
+}
+
+.listItem {
+  margin-bottom: 10px;
+}
+
+.subheading {
+  font-size: 20px;
+  margin-top: 20px;
+  color: #444;
+  text-align: left;
+}

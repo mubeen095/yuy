@@ -1,0 +1,61 @@
+.faqContainer {
+    max-width: 1400px;
+    margin: 40px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+
+  }
+  
+  .title {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 45px;
+
+  }
+  
+  .faqItem {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0; /* Increase padding to add more space between items */
+  }
+  
+  .question {
+    background: none;
+    border: none;
+    font-size: 18px;
+    text-align: left;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    transition: background 0.3s;
+    position: relative; /* Needed for positioning the pseudo-element */
+    display: flex;      /* Use flexbox to position the symbol */
+    justify-content: space-between; /* Space between text and symbol */
+    align-items: center; /* Center align items vertically */
+  }
+  
+  .question::after {
+    content: "+";
+    font-size: 24px;
+    transition: transform 0.3s;
+  }
+  
+  .question.active::after {
+    content: "-"; /* Change to "-" when active */
+    transform: rotate(180deg); /* Rotate for minus symbol */
+  }
+  
+  .question:hover {
+    background: #f0f0f0;
+  }
+  
+  .answer {
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+    display: none; /* Initially hide answers */
+  }
+  
+  .answer.active {
+    display: block; /* Show answer when active */
+  }
+  
